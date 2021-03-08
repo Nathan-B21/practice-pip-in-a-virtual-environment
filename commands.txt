@@ -1,0 +1,15 @@
+pip list: shows a list of all the packages installed in the environment
+
+deactivate: deactivates the current environment
+
+pip3 list: nothing appeared
+
+pip install Django==2.2.4 download and installs the version given of Django in the environment
+
+pip freeze: outputs insalled packages in requirements format, packages are listed in a case-insensitive sorted order.
+
+pip freeze > requirements.txt makes a requirements folder. not sure what's it's asking when i ls, I tried dir for windows and it just showed me the directory of my desktop but there was only 1 file there, when I opened the file it showed me everything that whas installed in the environment
+
+pip uninstall Django: uninstalls Django
+
+pip show Django: Django Package was not found
